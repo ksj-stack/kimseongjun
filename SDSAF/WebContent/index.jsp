@@ -1,31 +1,43 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
 
- <div align="center"><img src="images/ÀçÇöÁßÇĞ±³.jpg" width="90" height="90" align="middle"/>
-	<span>ÀçÇöÁß µµ¼­ ¿¹¾à »çÀÌÆ®</span></div>
+ <div align="center"><img src="images/ì¬í˜„ì¤‘í•™êµ.jpg" width="90" height="90" align="middle"/>
+	<span>ì¬í˜„ì¤‘ ë„ì„œ ì˜ˆì•½ ì‚¬ì´íŠ¸</span></div>
 	<br /><br />
 	
-	
+<div align= 'center'>
 <input type="text" name="id" id="id" 
-			placeholder="ÇĞ¹øÀ» ÀÔ·ÂÇÏ¼¼¿ä." size="50"/>
+			placeholder="í•™ë²ˆì„ ì…ë ¥í•˜ì„¸ìš”." size="50"/> <br/>
 			
-			<input type="password" name="pw" id="pw"  placeholder="ÆĞ½º¿öµå¸¦ ÀÔ·ÂÇÏ¼¼¿ä." size="50"/>
+			<input type="password" name="pw" id="pw"  placeholder="íŒ¨ìŠ¤ì›Œë“œë¥¼ ì…ë ¥í•˜ì„¸ìš”." size="50"/> <br/>
+			
 		
 
-<input type= "submit" value= "·Î±×ÀÎ"/>
+<input type= "submit" value= "ë¡œê·¸ì¸"/>
 
-<input type= "button" value= "È¸¿ø°¡ÀÔ"/>
+<input type= "button" value= "íšŒì›ê°€ì…" id="register"/>
 
+</div>
 <br/>
 
-<img src="images/´Ù¿î·Îµå (1).jpg" width="120" height="120" align="middle"/>
+<div align='center'>
+	<img src="images/ë‹¤ìš´ë¡œë“œ (1).jpg" width="280" height="180" align="middle"/>
+</div>
+
 
 </body>
+
+<script>
+	document.getElementById("register").addEventListener("click", function(e){
+		location.href="register.jsp";
+	})
+
+</script>
 </html>
