@@ -95,7 +95,7 @@
                         <input type="text" name="birth_dd" maxlength="2" placeholder="일" size="4" >
                     </td>
                 </tr>
-                    
+                     
                 <tr>
                     <td id="title">이메일</td>
                     <td>
