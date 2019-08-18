@@ -47,9 +47,4 @@
     
     
     
-    </nav>
-     
-     <h1> <%= greeting %> </h1>
-     <h3> <%= tagline %> </h3>
-</body>
-<html>
+    
